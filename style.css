@@ -385,6 +385,11 @@ padding-right: 8px;
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width:900px) {
+    .protect video {
+        width: 350px;
+    }
+}
 @media screen and (max-width:800px) {
     .hero h1, .main h2 {
         font-size: 2rem;
