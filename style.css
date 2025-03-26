@@ -401,16 +401,14 @@ padding-right: 8px;
         width: 50%;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
+    .flex-box {
+        flex-wrap: wrap;
+    }
     header ul li {
         clear: both;
         padding: 0.5rem;
         font-size: 1.4rem;
-    }
-}
-@media screen and (max-width:500px) {
-    .flex-box {
-        flex-wrap: wrap;
     }
     header ul li a {
         text-decoration: none;
