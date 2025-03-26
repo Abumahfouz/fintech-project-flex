@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    overflow-x: hidden;
+    width: 100%;
+    font-family: Boing,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol;
+}
+header {
+    background-color: #f1fef4f2;
+    min-height: 10vh;
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.hero, .api, .protect, .trust, .brands, .backing, .payments {
+    min-height: 60vh;
+}
+.header-wrapper {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    align-items: center;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header ul li {
+    float: left;
+    list-style-type: none;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+}
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.hero {
+    overflow-x: hidden;
+    width: 100%;
+    background: #f1fef4f2 url('/img/map-svg.png') no-repeat top right;
+    background-size: contain;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero .trust {
+    align-self: center;
+}
+.hero .text, .main .text, .trusted .text, .api .text, .brands .text, .backing .text {
+    min-width: 50%;
+    padding: 5rem 1.5rem 2rem;
+}
+.hero h1, .main h2 {
+    font-size: 5rem;
+    padding-bottom: 20px;
+}
+.hero .text p, .main .text p, .api p, .protect p, .backing .text p, .payments .text p {
+    font-size: 1.25rem;
+    min-width: 35%;
+}
+.hero .btn {
+    width: 450px;
+    font-size: 1.45rem;
+    margin-left: 1rem;
+}
+.hero .btn:hover {
+    cursor: pointer;
+}
+
+.hero .btn .less-action{
+    font-weight: bold;
+    color: #3bb75e;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.trust ul li{
+    float: left;
+    padding-right: 20px;
+    list-style-type: none;
+}
+.trust aside {
+    margin-top: 150px;
+}
+.trust p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.trust .flex-item {
+    width: 40%;
+}
+.trust .flex-item-2{
+    text-align: right;
+}
+.action {
+    background-color: #3bb75e;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.main h3, .api h3, .protect h3, .brands h3, .trusted h3, .backing h3, .payments h2 {
+    font-size: 3.2rem;
+    padding-bottom: 20px;
+}
+.main .delight, .main .enjoy {
+    width: 100%;
+}
+.main aside ul li, .api ul li{
+    list-style-type: none;
+    margin-bottom: 0.7rem;
+    font-size: 1.4rem;
+}
+.main aside ul li span, .api ul li span {
+    background-color: #f1fef4;
+    padding: 4px;
+}
+.delight .flex-box {
+    width: 100%;
+}
+.main {
+    width: 100%;
+}
+.pay-content {
+    width: 50%;
+}
+.pay-content picture img{
+    width: 90%;
+}
+.delight-content {
+    width: 50%;
+}
+.main, .delight-content, .delight {
+    flex-direction: column;
+}
+.delight .flex-item{
+    width: 50%;
+}
+.delight p, .enjoy p, .trusted p, .brands p {
+    font-size: 1.5rem;
+}
+.delight {
+    overflow-x: hidden;
+    width: 100%;
+}
+.enjoy .green, .api .green {
+    margin-top: 120px;
+    color:#3bb75e;
+    text-shadow: 0px 1px;
+}
+.api {
+    padding: 3rem;
+    justify-content: center;
+}
+.api .flex-box {
+    justify-content: center;
+}
+.api .flex-box .flex-item {
+    width: 40%;
+}
+.api .flex-item-2 img {
+    width: 100%;
+}
+.protect .flex-item {
+    width: 50%;
+}
+.protect .wide {
+    width: 40%;
+}
+.trusted{
+    background-color: #eaf6fc;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding-bottom: 150px;
+}
+.trusted .flex-item {
+    margin-top: 40px;
+    width: 30%;
+    min-height: 400px;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.trusted .main {
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+}
+.trusted .main h3 {
+    font-size: 2.8rem;
+}
+.trusted .learn {
+    font-size: 18px;
+    font-weight: bold;
+}
+.trusted .learn:hover{
+    cursor: pointer;
+}
+.brands {
+    width: 100%;
+    flex-direction: column;
+}
+.brands .top-brands,
+.brands .mid-brands,
+.brands .bottom-brands {
+    justify-content: space-around;
+}
+.brands .flex-box {
+    width: 100%;
+}
+.brands img {
+    width: 50%;
+}
+.brands .flex-item {
+    width: 15%;
+    min-height: 100px;
+}
+.backing .flex-box{
+    justify-content: center;
+    font-size: 1.125rem;
+    width: 100%;
+}
+.backing {
+    display:  flex;
+    flex-direction: column;
+    background-color: #f1fef4;
+    padding-bottom: 150px;
+    width: 100%;
+}
+/* .backing .flex-container .flex-content-2 */
+
+.backing .flex-item {
+    width: 30%;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #e2f4e6;
+}
+.backing img.logo {
+    height: 32px;
+    padding: 50px 50px 0px;
+}
+.backing .flex-container {
+    width: 300px;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+}
+.backing .flex-content-2 {
+    width: 100%;
+}
+.backing .flex-content {
+    margin-bottom: 20px;
+}
+.backing .name {
+    float: left;
+}
+.backing img.author{
+    height: 60px;
+    border-radius: 100%;
+    padding: 50px;
+}
+.backing p.texts {
+    padding: 50px;
+}
+
+.payments .flex-box{
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+}
+.payments .flex-item{
+    padding-left: 5%;
+    width: 25%;
+}
+.payments .flex-space {
+    padding: 5rem 0 5rem;
+}
+.payments .action {
+    margin-top: 100px;
+    padding: 1rem 2rem 1rem;
+    font-size: 20px;
+}
+.payments a {
+    text-decoration: none;
+}
+.payments .flex-box .flex-item ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.payments ul li{
+    padding: 0.5rem 0 0.5rem;
+}
+.payments .flex-box {
+    justify-content: space-between;
+}
+.payments .flex-item ul li {
+    list-style-type: none;
+}
+.payments .text{
+    padding-left: 2rem;
+}
+footer.flex-box {
+    width: 100%;
+}
+footer.flex-box .flex-item{
+    padding: 5px 2rem;
+    min-width: 400px;
+    min-height: 300px;
+}
+footer.flex-box .flex-item ul li {
+    list-style-type: none;
+}
+.payments {
+    min-height: 100vh;
+    font-size: 1.2rem;
+}
+footer a {
+    text-decoration: none;
+    color: #034a8d;
+}
+footer{
+    margin: 2rem 0;
+    min-height: 50vh;
+    font-size: 1.25rem;
+}
+footer .flex-box {
+    justify-content: space-around;
+}
+footer ul li {
+    list-style-type: none;
+}
+footer .flex-item {
+    width: 18%;
+}
+.c-footer-list {
+    padding: 10px 0px 10px;
+}
+footer .c-footer-list li {
+float: left;
+padding-right: 8px;
+}
+.stripe{
+    color: #4e4e4fd1;
+}
+
+@media screen and (max-width: 1150px) {
+    .payments .action {
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+        font-size: 20px;
+    }
+    .payments .flex-item{
+        padding-left: 5%;
+        width: 55%;
+    }
+    .hero .text p, .main .text p, .api p, .protect p, .backing .text p, .payments .text p {
+        font-size: 1.12rem;
+    }
+    .main h3, .api h3, .protect h3, .brands h3, .trusted h3, .backing h3, .payments h2 {
+        font-size: 2.6rem;
+        padding-bottom: 1rem;
+    }
+    .protect video {
+        width: 500px;
+    }
+    .backing .flex-container {
+        width: 100%;
+        display: flex;
+        min-height: 4rem;
+        justify-content: space-around;
+    }
+    footer .flex-box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:800px) {
+    .hero h1, .main h2 {
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+    .backing .flex-box{
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .backing .flex-box .flex-item {
+        margin-bottom: 5rem;
+        min-height: 50vh;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    header ul li {
+        clear: both;
+        padding: 0.5rem;
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .flex-box {
+        flex-wrap: wrap;
+    }
+    header ul li a {
+        text-decoration: none;
+        color: #000;
+    }
+    .trusted .main {
+        flex-direction: column;
+    }
+    .main .text {
+        width: 100%;
+    }
+    div.main-content .flex-box{
+        flex-direction: column !important;
+    }
+    .main-content .flex-box{
+        flex-direction: column;
+    }
+    .main .text, .trusted .text, .api .text, .brands .text, .backing .text {
+        width: 80%;
+        padding: 2rem 1rem;
+    }
+    .trust {
+        flex-direction: column;
+    }
+    .trust .flex-item-1{
+        width: 50%;
+        align-self: flex-start;
+    }
+    .hero .text {
+        align-self: flex-start;
+        width: 100%;
+    }
+    .hero .text p, .main .text p, .api p, .protect p, .backing .text p, .payments .text p {
+        font-size: 1rem;
+        width: 80%;
+    }
+    .watch-sir {
+        font-size: 1.2rem !important;
+    }
+    .pay-content {
+        width: 100%;
+    }
+    .main-content picture img {
+        width: 300px;
+        height: auto;
+    }
+    .hero h1, .main h2 {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .main h3, .api h3, .protect h3, .brands h3, .trusted h3, .backing h3, .payments h2 {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .api {
+        padding: 1rem;
+        justify-content: center;
+    }
+    .api .flex-box {
+        flex-direction: column;
+    }
+    .api .flex-box .flex-item-1,
+    .api .flex-box .flex-item-2{
+        width: 80%;
+    }
+    .api .flex-box .flex-item-2 {
+        justify-content: center;
+        align-self: center;
+    }
+    .api .flex-item-2 img {
+        width: 80%;
+        height: 300px;
+    }
+    .api .flex-box .flex-item-1 {
+        width: 80%;
+    }
+    .protect .flex-box {
+        flex-direction: column;
+    }
+    .protect .flex-item-2 {
+        padding: 1rem 2rem;
+    }
+    .protect video {
+        width: 300px;
+    }
+    .btn {
+        flex-direction: column;
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
+    .btn aside {
+        width: 40%;
+    }
+    .trusted .main h3 {
+        width: 100%;
+        font-size: 1.6rem;
+    }
+    .trust .flex-item-1 ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .trust .flex-item-1 ul img {
+        height: 20px !important;
+    }
+    .trusted .flex-item {
+        margin-top: 2rem;
+        width: 60%;
+        align-self: center;
+    }
+    .backing .flex-container {
+        display: none;
+    }
+
+}
